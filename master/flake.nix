@@ -11,7 +11,6 @@
   inputs.src-alsa-master.ref   = "refs/heads/master";
   inputs.src-alsa-master.owner = "eagledot";
   inputs.src-alsa-master.repo  = "nim-alsa";
-  inputs.src-alsa-master.dir   = "";
   inputs.src-alsa-master.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
