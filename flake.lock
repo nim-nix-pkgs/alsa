@@ -1,32 +1,5 @@
 {
   "nodes": {
-    "alsa-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-alsa-master": "src-alsa-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656297561,
-        "narHash": "sha256-A0ghxDbCZFnL9AEpZBQ0xRAhVPenWa9RE/K32fo1AmM=",
-        "owner": "nim-nix-pkgs",
-        "repo": "alsa",
-        "rev": "640844a84c729655277d86d6aeb437d0bece0955",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "alsa",
-        "type": "github"
-      }
-    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -62,26 +35,8 @@
     },
     "root": {
       "inputs": {
-        "alsa-master": "alsa-master",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs"
-      }
-    },
-    "src-alsa-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1591692735,
-        "narHash": "sha256-MBRUfiIsa+tMQWT35Q/4JnyVWAQQjqyUfcNhOZHIqYw=",
-        "owner": "eagledot",
-        "repo": "nim-alsa",
-        "rev": "b5ef3f6a1ac5424fcc669e52fd015b9cc0804dac",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "eagledot",
-        "ref": "refs/heads/master",
-        "repo": "nim-alsa",
-        "type": "gitlab"
       }
     }
   },
